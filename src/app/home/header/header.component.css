@@ -1,0 +1,89 @@
+#blog {
+    position: relative;
+    width: auto;
+    height: auto;
+    background: #FFFFFF;
+    }
+    
+    .ret1 {
+    position: absolute;
+    width: 100%;
+    height: 497px;
+    left: 0px;
+    top: 0px;
+    
+    background: linear-gradient(272.55deg, #03091D 70.39%, #06103C 98.77%);
+    }
+    
+    .nomepage {
+      position: absolute;
+    width: 111px;
+    height: 27px;
+    left: 129px;
+    top: 46px;
+    
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    
+    background: linear-gradient(89.32deg, #01B0F9 -8.43%, #015BEA 48.67%, #027FF0 95.98%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    }
+    
+    .menu{
+    position: absolute;
+    width: 51px;
+    height: 25px;
+    left: 70%;
+    top: 54px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height */
+    color: #FFFFFF;
+    }
+    
+    .menu a {
+      margin: 10px;
+    }
+    
+    .slogan a {
+    
+    position: absolute;
+    width: 585px;
+    height: 170px;
+    left: 682px;
+    top: 166px;
+    
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 65px;
+    line-height: 84px;
+    
+    color: #FFFFFF;
+}
+    
+.img1 img { 
+    position: absolute;
+    width: 450px;
+    height: 400px;
+    margin: 7% 7%; 
+}
+
+.placeholder input {
+position: absolute;
+width: 432px;
+height: 45px;
+left: 686px;
+top: 387px;
+background: #FFFFFF;
+border-radius: 10px;
+}

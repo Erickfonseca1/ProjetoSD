@@ -17,22 +17,21 @@ background: linear-gradient(272.55deg, #03091D 70.39%, #06103C 98.77%);
 
 .nomepage {
   position: absolute;
-width: 111px;
-height: 27px;
-left: 129px;
-top: 46px;
+width: 20vh;
+height: 15vh;
+left: 15vh;
+top: 5vh;
 
 font-family: 'Manrope';
 font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 27px;
+font-weight: 400px;
+font-size: 50px;
+line-height: 50px;
 
 background: linear-gradient(89.32deg, #01B0F9 -8.43%, #015BEA 48.67%, #027FF0 95.98%);
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 background-clip: text;
-text-fill-color: transparent;
 }
 
 .menu{
@@ -56,7 +55,7 @@ color: #FFFFFF;
 
 .slogan {
 position: absolute;
-margin-left: 54%;
+margin-left: 57%;
 margin-top: 20vh;
 
 font-family: 'IBM Plex Mono';
@@ -69,7 +68,7 @@ color: #FFFFFF;
 
 .img1 img { 
 position: absolute;
-width: 65vh;
+width: 60vh;
 height: 60vh;
 margin-left: 7%;
 margin-top: 15vh; 
@@ -79,7 +78,7 @@ margin-top: 15vh;
 position: absolute;
 width: 432px;
 height: 45px;
-left: 54%;
+left: 80vh;
 top: 50vh;
 background: #FFFFFF;
 border-radius: 10px;

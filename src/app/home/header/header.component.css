@@ -54,26 +54,19 @@ color: #FFFFFF;
   margin: 10px;
 }
 
-.slogan p {
-  
+.slogan {
 position: absolute;
-width: 585px;
-height: 170px;
-left: 682px;
-top: 166px;
-margin-top: 20px;
+margin-left: 54%;
+margin-top: 20vh;
+
 font-family: 'IBM Plex Mono';
 font-style: normal;
-font-weight: 400;
+font-weight: 400px;
 font-size: 65px;
 line-height: 84px;
-
 color: #FFFFFF;
 }
 
-.slogan .p2 {
-  margin-top: 85px;
-}
 .img1 img { 
 position: absolute;
 width: 65vh;
@@ -86,8 +79,8 @@ margin-top: 15vh;
 position: absolute;
 width: 432px;
 height: 45px;
-left: 686px;
-top: 370px;
+left: 54%;
+top: 50vh;
 background: #FFFFFF;
 border-radius: 10px;
 }

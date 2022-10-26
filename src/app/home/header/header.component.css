@@ -1,85 +1,97 @@
-#blog {
-position: relative;
-width: auto;
-height: auto;
-background: #FFFFFF;
+* {
+  padding: 0;
+  margin: 0;
+
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.ret1 {
-position: absolute;
+#header {
+display: flex;
+margin: auto;
+width: 100vw;
+min-width: 320px;
+}
+
+.back {
+display: flex;
 width: 100%;
 height: 75vh;
-left: 0px;
-top: 0px;
-
 background: linear-gradient(272.55deg, #03091D 70.39%, #06103C 98.77%);
 }
 
 .nomepage {
-  position: absolute;
+position: absolute;
+display: flex;
+margin-left: 10vh;
+margin-top: 4vh;
+height: 10vh;
+width: 13vw;
+}
+
+.nomepage h1 {
 width: 20vh;
-height: 15vh;
-left: 15vh;
-top: 5vh;
-
-font-family: 'Manrope';
-font-style: normal;
-font-weight: 400px;
-font-size: 50px;
-line-height: 50px;
-
+font-size: 30px;
+font-weight: 800px;
+font-family: Arial, Helvetica, sans-serif;
 background: linear-gradient(89.32deg, #01B0F9 -8.43%, #015BEA 48.67%, #027FF0 95.98%);
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 background-clip: text;
 }
 
-.menu{
+.img1 img { 
+display: block;
+width: 60vh;
+height: 60vh;
+margin-top: 15vh;
+margin-left: 10vh;
+}
+
+.nav{
+display: flex;
 position: absolute;
-width: 51px;
-height: 25px;
-left: 70%;
-top: 54px;
-font-family: 'Manrope';
-font-style: normal;
-font-weight: 700;
-font-size: 18px;
+margin-top: 4vh;
+justify-content: space-between;
+width: 20vw;
+margin-left: 90vh;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 700px;
+font-size: 20px;
 line-height: 25px;
-/* identical to box height */
 color: #FFFFFF;
 }
 
-.menu a {
-  margin: 10px;
-}
 
 .slogan {
 position: absolute;
-margin-left: 57%;
+display: flex;
+flex-direction: column;
+margin-left: 80vh;
 margin-top: 20vh;
-
-font-family: 'IBM Plex Mono';
-font-style: normal;
+font-family: 'IBM Plex Mono', Arial, Helvetica, sans-serif;
 font-weight: 400px;
 font-size: 65px;
-line-height: 84px;
+line-height: 80px;
 color: #FFFFFF;
 }
 
-.img1 img { 
+.slogan p{
+width: 45vw;
+height: 10vh;
+}
+.placeholder{
 position: absolute;
-width: 60vh;
-height: 60vh;
-margin-left: 7%;
-margin-top: 15vh; 
+margin-top: 50vh;
+margin-left: 80vh;
 }
 
 .placeholder input {
-position: absolute;
-width: 432px;
+display: flex;
+width: 40vh;
 height: 45px;
-left: 80vh;
-top: 50vh;
 background: #FFFFFF;
 border-radius: 10px;
 }
+

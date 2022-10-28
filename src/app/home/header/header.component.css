@@ -60,14 +60,13 @@ body {
 
 .content {
   display: flex;
-  padding: 20px 20px 0px 20px;  
   max-width: 100%;
   justify-content: space-around;
 }
 
 .content img {
   height: 65vh;
-  width: 70vh;
+  width: 75vh;
 }
 
 .slogan {
@@ -76,7 +75,7 @@ body {
   justify-content: center;
   font-family: 'Courier New', Courier, monospace;
   font-weight: 400px;
-  font-size: 5rem;
+  font-size: 5vw;
   line-height: 80px;
   color: #FFFFFF;
 }

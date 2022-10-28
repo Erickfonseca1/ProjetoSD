@@ -3,8 +3,11 @@
     height: 100%vh;
     display: flex;
     flex-direction: column;
-    margin-left: 5vw;
-    margin-top: 5vh;
+    background-color: #BEBEBE2B;
+}
+
+.content{
+    margin-left: 20px;
 }
 
 .title{
@@ -44,30 +47,15 @@
     line-height: 34px;
 }
 
-.cards {
-    display: flex;
+.cards{
     margin-left: 23vw;
-    justify-content: auto;
 }
 
-.cards .block1{
-    display: flex;
-    background-color:  yellow !important;
+.example-card {
     width: 200px;
-    height: 157px;
 }
-
-.cards .block2{
-    display: flex;
-    background-color:  black;
-    width: 200px;
-    height: 157px;
-}
-
-
-.cards .block3{
-    display: flex;
-    background-color:  blue;
-    width: 200px;
-    height: 157px;
+  
+.example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
 }

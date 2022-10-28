@@ -39,7 +39,7 @@
   border: none;
   border-radius: 60px;
   font-family: 'Poppins', sans-serif !important;
-  font-size: 25px;
+  font-size: 1.8vw;
   font-weight: 300;
   cursor: pointer;
   transition-duration: 0.8s;
@@ -93,15 +93,15 @@
   align-items: center;
   color: #FFF;
   width: 50%;
-  font-size: 4rem;
+  font-size: 4vw;
   font-weight: 300;
-  line-height: 5rem;
+  line-height: 5vw;
   font-family: 'Poppins', sans-serif;
   padding : 30px;
 }
 
 .about {
-  font-size: 2rem !important; 
+  font-size: 2vw !important; 
   width: 250px !important;
   justify-content: center;
   background-color: #027FF0;
@@ -114,7 +114,7 @@
 }
 
 .cardContentImg img {
-  height: 70%;
-  width: 100%;
+  height: 25vw;
+  width: 30vw;
   margin: 0 !important;
 }

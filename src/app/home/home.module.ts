@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HeaderComponent } from './header/header.component';
 import { CategoriesComponent } from './categories/categories.component';
+import { NewsComponent } from './news/news.component';
 import { MatCardModule} from '@angular/material/card';
 
 
@@ -9,7 +10,8 @@ import { MatCardModule} from '@angular/material/card';
 @NgModule({
   declarations: [
     HeaderComponent,
-    CategoriesComponent 
+    CategoriesComponent,
+    NewsComponent
   ],
   imports: [
     CommonModule,
@@ -17,7 +19,8 @@ import { MatCardModule} from '@angular/material/card';
   ],
   exports: [
     HeaderComponent,
-    CategoriesComponent
+    CategoriesComponent,
+    NewsComponent
   ]
 })
 export class HomeModule { }

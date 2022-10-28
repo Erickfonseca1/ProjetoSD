@@ -10,6 +10,7 @@ body {
 
 #header {
   background: linear-gradient(272.55deg, #03091D 70.39%, #06103C 98.77%);
+  height: auto;
 }
 
 .topbar {
@@ -59,24 +60,22 @@ body {
 
 .content {
   display: flex;
-  padding: 20px 20px 0px 20px;  
   max-width: 100%;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .content img {
   height: 65vh;
-  width: 70vh;
-  padding-left: 5%;
+  width: 75vh;
 }
 
 .slogan {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   font-family: 'Courier New', Courier, monospace;
   font-weight: 400px;
-  font-size: 85px;
+  font-size: 5vw;
   line-height: 80px;
   color: #FFFFFF;
-  padding: 10% 5% 10% 0%;
 }

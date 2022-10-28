@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { HeaderComponent } from './header/header.component';
 import { CategoriesComponent } from './categories/categories.component';
 import { NewsComponent } from './news/news.component';
+import { MatCardModule} from '@angular/material/card';
 
 
 
@@ -13,7 +14,8 @@ import { NewsComponent } from './news/news.component';
     NewsComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    MatCardModule
   ],
   exports: [
     HeaderComponent,

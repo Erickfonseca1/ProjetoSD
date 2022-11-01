@@ -4,6 +4,9 @@ import { HeaderComponent } from './header/header.component';
 import { CategoriesComponent } from './categories/categories.component';
 import { NewsComponent } from './news/news.component';
 import { MatCardModule} from '@angular/material/card';
+import { VideosComponent } from './videos/videos.component';
+import { HighlightsComponent } from './highlights/highlights.component';
+import { EventsComponent } from './events/events.component';
 
 
 
@@ -11,7 +14,10 @@ import { MatCardModule} from '@angular/material/card';
   declarations: [
     HeaderComponent,
     CategoriesComponent,
-    NewsComponent
+    NewsComponent,
+    VideosComponent,
+    HighlightsComponent,
+    EventsComponent
   ],
   imports: [
     CommonModule,
@@ -20,7 +26,10 @@ import { MatCardModule} from '@angular/material/card';
   exports: [
     HeaderComponent,
     CategoriesComponent,
-    NewsComponent
+    NewsComponent,
+    VideosComponent,
+    HighlightsComponent,
+    EventsComponent
   ]
 })
 export class HomeModule { }

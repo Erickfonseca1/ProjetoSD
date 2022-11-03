@@ -1,0 +1,67 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#events {
+  background: #FFF;
+}
+
+.eventsLayout {
+  padding: 40px 50px;
+  max-width: 100%;
+  font-family: 'Poppins', sans-serif;
+}
+
+.eventsLayout h1 {
+  font-size: 40px;
+  font-weight: 300;
+}
+
+.eventsLayout h2 {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.eventsLayout h3 {
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.content {
+  display: flex;
+}
+
+.imgCalendar {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.imgCalendar img {
+  width: 90%;
+  height: 90%;
+}
+
+.cards {
+  width: 50%;
+}
+
+.calendarTitle {
+  position: relative;
+}
+
+.calendarTitle:after {
+  content: " ";
+  height: 2px;
+  width: 75%;
+  background: blue;
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 0;
+}
+
+mat-card{
+  height: 80px;
+}

@@ -47,6 +47,11 @@
   width: 50%;
 }
 
+.cards mat-card {
+  height: auto;
+  margin-bottom: 30px;
+}
+
 .calendarTitle {
   position: relative;
 }
@@ -54,7 +59,7 @@
 .calendarTitle:after {
   content: " ";
   height: 2px;
-  width: 75%;
+  width: 50%;
   background: blue;
   display: block;
   position: absolute;
@@ -63,5 +68,17 @@
 }
 
 mat-card{
-  height: 80px;
+  height: auto;
+}
+
+mat-icon img{
+  height: 100%;
+}
+
+.eventInformation {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: medium;
+  font-weight: 600;
 }

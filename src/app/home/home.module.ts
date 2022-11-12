@@ -6,10 +6,10 @@ import { NewsComponent } from './news/news.component';
 import { MatCardModule} from '@angular/material/card';
 import { MatDividerModule} from '@angular/material/divider';
 import { MatIconModule} from '@angular/material/icon';
+import { YouTubePlayerModule } from '@angular/youtube-player';
 import { VideosComponent } from './videos/videos.component';
 import { HighlightsComponent } from './highlights/highlights.component';
 import { EventsComponent } from './events/events.component';
-import { EventsCardComponent } from './events-card/events-card.component';
 
 
 
@@ -20,14 +20,14 @@ import { EventsCardComponent } from './events-card/events-card.component';
     NewsComponent,
     VideosComponent,
     HighlightsComponent,
-    EventsComponent,
-    EventsCardComponent
+    EventsComponent
   ],
   imports: [
     CommonModule,
     MatDividerModule,
     MatCardModule,
-    MatIconModule
+    MatIconModule,
+    YouTubePlayerModule
   ],
   exports: [
     HeaderComponent,

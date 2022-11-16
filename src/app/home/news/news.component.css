@@ -1,13 +1,11 @@
-#container{
-    width: 100vw;
-    height: 100%vh;
-    display: flex;
-    flex-direction: column;
-    background-color: #BEBEBE2B;
+#news{
+    max-width: 100%;
+    background-color: #fff;
+    padding: 0px 40px 50px;
 }
 
 .content{
-    margin-left: 20px;
+    max-width: 100%;
 }
 
 .title{
@@ -15,47 +13,41 @@
 }
 
 .title h1{
-    color:#061039;
-    width: 450px;
-    font-family: 'Nunito',sans-serif;
-    font-weight: 700;
-    font-size: 25px;
-    line-height: 34px;
-}
-
-.button{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    width: 253px;
-    height: 56px;
-    margin-top: 5vh;
-}
-
-.button button{
-    width: 253px;
-    height: 56px;
-    background: linear-gradient(272.55deg, #03091D 70.39%, #06103C 98.77%);
-    border-radius: 15px;
-    color: white;
-    font-size: 18px;
-    font-weight: bold;
-    margin-top: 10px;
-    border: none;
-    font-weight: 700;
-    font-size: 25px;
-    line-height: 34px;
-}
-
-.cards{
-    margin-left: 23vw;
-}
-
-.example-card {
-    width: 200px;
-}
+    font-size: 40px;
+    font-weight: 300;
   
-.example-header-image {
-    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
-    background-size: cover;
+}
+
+.news-card{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.news-card mat-card{
+    height: 250px;
+    width: 320px;
+    margin: 20px 20px;
+}
+
+.news-card mat-card :hover {
+    cursor: pointer;
+}
+
+.news-card img{
+    border-radius: 15px;
+    width: 100%;
+    height: 80%;
+}
+
+.news-card a {
+    text-decoration: none;
+    color: #000;
+}
+
+.news-card mat-card p {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
 }

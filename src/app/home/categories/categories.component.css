@@ -16,7 +16,7 @@
 }
 
 .categoriesLayout h1 {
-  font-size: 30px;
+  font-size: 40px;
   font-weight: 300;
 }
 
@@ -39,7 +39,7 @@
   border: none;
   border-radius: 60px;
   font-family: 'Poppins', sans-serif !important;
-  font-size: 1.8vw;
+  font-size: 1.5vw;
   font-weight: 300;
   cursor: pointer;
   transition-duration: 0.8s;

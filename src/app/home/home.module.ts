@@ -6,10 +6,13 @@ import { NewsComponent } from './news/news.component';
 import { MatCardModule} from '@angular/material/card';
 import { MatDividerModule} from '@angular/material/divider';
 import { MatIconModule} from '@angular/material/icon';
-import { YouTubePlayerModule } from '@angular/youtube-player';
+import { AppRoutingModule } from '../app-routing.module';
 import { VideosComponent } from './videos/videos.component';
 import { HighlightsComponent } from './highlights/highlights.component';
 import { EventsComponent } from './events/events.component';
+import { HomeComponent } from './home/home.component';
+import { RouterComponent } from './router/router.component';
+import { TopbarComponent } from './topbar/topbar.component';
 
 
 
@@ -20,14 +23,17 @@ import { EventsComponent } from './events/events.component';
     NewsComponent,
     VideosComponent,
     HighlightsComponent,
-    EventsComponent
+    EventsComponent,
+    HomeComponent,
+    RouterComponent,
+    TopbarComponent
   ],
   imports: [
     CommonModule,
     MatDividerModule,
     MatCardModule,
     MatIconModule,
-    YouTubePlayerModule
+    AppRoutingModule
   ],
   exports: [
     HeaderComponent,
@@ -35,7 +41,9 @@ import { EventsComponent } from './events/events.component';
     NewsComponent,
     VideosComponent,
     HighlightsComponent,
-    EventsComponent
+    EventsComponent,
+    RouterComponent,
+    TopbarComponent
   ]
 })
 export class HomeModule { }

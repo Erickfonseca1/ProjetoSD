@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-categories',
@@ -7,9 +8,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CategoriesComponent implements OnInit {
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit(): void {
+  }
+
+  navigateToSaibaMais() {
+    localStorage.setItem('lastEndpoint', '/saiba-mais');
+    this.router.navigate([`${localStorage.getItem('lastEndpoint')}`]);
   }
 
 }

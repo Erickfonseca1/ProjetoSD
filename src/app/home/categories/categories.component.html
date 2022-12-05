@@ -2,8 +2,8 @@
   <div class="categoriesLayout">
     <h1>| Busque por Categorias</h1>
 
-    <div class="buttons">
-      <button class="lgpd" type="button">
+    <div class="buttons" id="buttons">
+      <button class="lgpd" type="button" (click)="navigateToSaibaMais()">
         <img src="../../../assets/lockIcon.png" alt="lockIcon">
         <span>Lei Geral de Proteção de Dados</span>
       </button>
@@ -20,7 +20,7 @@
     <mat-card class="card">
       <div class="cardContentText">
         <span>Descubra o que é a lei geral de proteção de dados (LGPD)</span>
-        <button class="about" type="button">Saiba mais</button>
+        <button class="about" (click)="navigateToSaibaMais()" type="button">Saiba mais</button>
       </div>
       <div class="cardContentImg">
         <img src="../../../assets/privacyPolicy-amico.svg" alt="pP">

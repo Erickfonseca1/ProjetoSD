@@ -6,6 +6,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatCardModule} from '@angular/material/card';
 import {MatButtonModule} from '@angular/material/button';
 import { HomeModule } from './home/home.module';
+import { PagesModule } from './pages/pages.module';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { HomeModule } from './home/home.module';
     BrowserAnimationsModule,
     MatCardModule,
     MatButtonModule,
-    HomeModule
+    HomeModule,
+    PagesModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,4 +1,4 @@
-.saibaMaisPage {
+.noticiaPage {
   display: flex;
   flex-direction: column;
   background: #f5f5f5;
@@ -13,8 +13,8 @@
 }
 
 .noticia mat-card-title {
-  font-size: 4rem;
-  line-height: 4.5rem;
+  font-size: 4.5rem;
+  line-height: 4.8rem;
   font-weight: 500;
   margin-top: 10px;
   margin-bottom: 10px;

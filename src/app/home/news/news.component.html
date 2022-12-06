@@ -1,47 +1,41 @@
 <div id="news">
-    <div class="content">
-
-        <div class="title">
-            <h1>| Notícias </h1>
-        </div>
-
-
-        <div class="news-card">
-            <a href="#">
-                <mat-card>
-                    <mat-card-header></mat-card-header>
-                    <img mat-card-image src="../../../assets/news.svg" alt="hacker">
-                    <mat-card-content>
-                        <p>
-                        exemplo materia
-                        </p>
-                    </mat-card-content>
-                </mat-card>
-            </a>
-    
-            <a href="#">
-                <mat-card>
-                    <mat-card-header></mat-card-header>
-                    <img mat-card-image src="../../../assets/news2.svg" alt="hacker">
-                    <mat-card-content>
-                        <p>
-                        exemplo materia
-                        </p>
-                    </mat-card-content>
-                </mat-card>
-            </a>
-    
-            <a href="#">
-                <mat-card>
-                    <mat-card-header></mat-card-header>
-                    <img mat-card-image src="../../../assets/news.svg" alt="hacker">
-                    <mat-card-content>
-                        <p>
-                        exemplo materia
-                        </p>
-                    </mat-card-content>
-                </mat-card>
-            </a>
-        </div>
+  <div class="content">
+    <div class="title">
+      <h1>| Notícias</h1>
     </div>
+
+    <div class="news-card">
+      <a>
+        <mat-card (click)="navigateToArtigo()">
+          <img
+            mat-card-image
+            src="../../../assets/bookcase-books-bookshelves-256541.jpg"
+            alt="academico"
+          />
+          <mat-card-content>
+            <p>Artigo: Ataques de “Injeção SQL”: A relevância do Código Seguro na Segurança da Informação</p>
+          </mat-card-content>
+        </mat-card>
+      </a>
+
+      <a>
+        <mat-card (click)="navigateToNotice2()">
+          <img mat-card-image src="../../../assets/noticia2.jpg" alt="security" />
+          <mat-card-content>
+            <p>Ransomware: Pagamentos por resgates de dados tiveram aumento de 78% em 2021</p>
+          </mat-card-content>
+        </mat-card>
+      </a>
+
+      <a>
+        <mat-card (click)="navigateToNotice3()">
+          <img mat-card-image src="../../../assets/noticia3.jpg" alt="hacker" />
+          <mat-card-content>
+            <p>Quatro em cada dez empresas brasileiras agem contra vazamento de dados</p>
+          </mat-card-content>
+        </mat-card>
+      </a>
+    </div>
+    <mat-divider></mat-divider>
+  </div>
 </div>

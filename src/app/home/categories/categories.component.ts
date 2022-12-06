@@ -18,4 +18,12 @@ export class CategoriesComponent implements OnInit {
     this.router.navigate([`${localStorage.getItem('lastEndpoint')}`]);
   }
 
+  goToNews() {
+    document.getElementById('news')!.scrollIntoView({ behavior: 'smooth' });
+  }
+
+  goToVideos() {
+    document.getElementById('videos')!.scrollIntoView({ behavior: 'smooth' });
+  }
+
 }

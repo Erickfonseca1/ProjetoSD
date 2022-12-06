@@ -1,13 +1,93 @@
-<div class="pageSaibaMais">
-  <div class="topbar">
-    <h1>Safe.TSI</h1>
-    <div class="buttons">
-      <button type="button" (click)="navigateToHome()">Home</button>
-      <button type="button">Sobre</button>
-      <button type="button">Contato</button>
-    </div>
-  </div>
-  <div>
-    <h1>LGPD: ENTENDA DE UMA VEZ POR TODAS</h1>
+<div class="saibaMaisPage">
+  <app-topbar></app-topbar>
+  <div class="noticia">
+    <mat-card>
+      <mat-card-content>
+        <mat-card-title>
+          LGPD: Lei Geral de Proteção de Dados
+        </mat-card-title>
+        <mat-divider></mat-divider>
+        <div class="texto">
+          <p>A Lei Geral de Proteção de Dados Pessoais (Lei n. 13.709, de 14 de agosto de 2018) foi aprovada 
+            em 2018, entrando em vigor a partir de 18 de setembro de 2021. A lei representa um marco histórico 
+            na regulamentação do tratamento de dados pessoais no Brasil.
+          </p>
+          <p>
+            A LGPD fala sobre o tratamento de dados pessoais, dispostos em meio físico ou digital, feito por pessoa 
+            física ou jurídica de direito público ou privado, e engloba um amplo conjunto de operações efetuadas em 
+            meios manuais ou digitais.
+          </p>
+          <p>
+            Além de mudar a maneira como instituições privadas coletam, armazenam e disponibilizam informações de 
+            usuários, a LGPD é destinada às instituições públicas – portanto, deve ser seguida por União, estados, 
+            Distrito Federal e municípios (STJ, 2021). O Serasa (2022) resume a lei de proteção de dados brasileira, 
+            que pode ser vista por três pontos principais:
+          </p>
+          <h2>Finalidade</h2>
+          <p>
+            Para um dado ser captado e armazenado por uma companhia é preciso estar claro para que ele será usado. 
+            As empresas devem deixar essa informação evidente para o consumidor e, se desejarem utilizar o mesmo dado 
+            para outro fim, devem solicitar uma nova autorização.
+          </p>
+          <h2>Consentimento</h2>
+          <p>O segundo ponto é sobre a autorização do usuário para que o dado seja utilizado. Um caso simples é 
+            quando uma loja deseja enviar comunicações promocionais para o seu e-mail. Ainda que você tenha fornecido 
+            o endereço eletrônico, é preciso consentir no uso dele para o envio das comunicações.
+          </p>
+          <h2>Minimização</h2>
+          <p>
+            Esse ponto diz respeito a quantidade de dados captados pelas empresas. É comum que alguns formulários de 
+            cadastros tenham diversos campos que não são necessários para aquela finalidade.Nesses casos o 
+            preenchimento dessas informações deve ser opcional, e o você deve ter a possibilidade de escolher se vai 
+            ou não fornecê-las. Podemos citar como exemplos de soluções para adequação a LGPD:
+          </p>
+          <ul>
+            <li>
+              O mapeamento de dados, pois permite entender como os dados pessoais são coletados e como se movem pela empresa;
+            </li>
+            <li>
+              Backup e recuperação de desastres, que inclui os procedimentos e políticas da empresa para a rápida 
+              recuperação quando ocorrem incidentes imprevistos;
+            </li>
+            <li>
+              Autenticação multifatorial é um método de autenticação que exige que o usuário forneça dois ou mais fatores de 
+              verificação para obter acesso a um recurso, como um aplicativo, conta online ou VPN
+            </li>
+            <li>
+              Controle de Acesso à Rede (NAC) e de virtualização de apps e desktops, é uma solução que protege as redes 
+              corporativas através da implementação de políticas que devem ser cumpridas por todos os dispositivos antes
+              que os mesmos se conectem à rede;
+            </li>
+          </ul>
+          <p>Leia mais sobre o assunto nos links:</p>
+          <a href="https://www.stj.jus.br/sites/portalp/Leis-e-normas/lei-geral-de-protecao-de-dados-pessoais-lgpd">
+            https://www.stj.jus.br/sites/portalp/Leis-e-normas/lei-geral-de-protecao-de-dados-pessoais-lgpd
+          </a><br>
+          <a href="https://www.gov.br/cidadania/pt-br/acesso-a-informacao/lgpd/conheca-a-lgpd">
+            https://www.gov.br/cidadania/pt-br/acesso-a-informacao/lgpd/conheca-a-lgpd
+          </a><br>
+          <a href="https://getprivacy.com.br/mapeamento-de-dados-lgpd/">
+            https://getprivacy.com.br/mapeamento-de-dados-lgpd/
+          </a><br>
+          <a href="https://aws.amazon.com/pt/what-is/disaster-recovery/">
+            https://aws.amazon.com/pt/what-is/disaster-recovery/
+          </a><br>
+          <a href="https://getprivacy.com.br/exemplos-praticos-e-reais-de-aplicacao-da-lgpd/">
+            https://getprivacy.com.br/exemplos-praticos-e-reais-de-aplicacao-da-lgpd/
+          </a><br>
+          <a href="https://www.serasa.com.br/premium/blog/seguranca-de-dados-como-funciona-a-legislacao/">
+            https://www.serasa.com.br/premium/blog/seguranca-de-dados-como-funciona-a-legislacao/
+          </a><br>
+          <br>
+          <h5>
+            Referência: FERREIRA, V. Serasa Premium. Segurança de dados: o que é e como funciona a legislação. Disponível 
+            em: <https://www.serasa.com.br/premium/blog/seguranca-de-dados-como-funciona-a-legislacao/>. Acesso 
+            em: 04 de dezembro de 2022.
+          </h5>
+
+        </div>
+      </mat-card-content>
+    </mat-card>
   </div>
 </div>
+

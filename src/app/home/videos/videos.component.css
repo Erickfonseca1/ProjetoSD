@@ -8,7 +8,8 @@
 .videosLayout {
   max-width: 100%;
 }
-.videosLayout h1 {
+
+.title h1 {
   font-size: 40px;
   font-weight: 300;
 }
